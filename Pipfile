@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+pandas = "*"
+dvc = "*"
+notebook = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+python-box = "==6.0.2"
+pyyaml = "*"
+tqdm = "*"
+ensure = "*"
+joblib = "*"
+types-pyyaml = "*"
+scipy = "*"
+flask = "*"
+flask-cors = "*"
+pipfile = "*"
+cnnclassifier = {file = ".", editable = true}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
